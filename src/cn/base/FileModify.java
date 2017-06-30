@@ -19,12 +19,6 @@ public class FileModify {
 		String filePath =  "/Users/chuck/Desktop/second.html";// 文件路径
 		FileModify obj = new FileModify();
 		obj.write(filePath, obj.read(filePath)); // 读取修改文件
-//		try {
-//			obj.fileAppender(filePath, "set a=b \n");
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
 	}
 
 	/**
